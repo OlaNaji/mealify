@@ -1,0 +1,166 @@
+ /*dark mode color changes*/
+ .dark-mode-cb:checked  ~ #home{
+    background-color: var(--grey);
+  }
+  .dark-mode-cb:checked  ~ #home .home-navbar{
+    background-color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked  ~ #home .home-logo{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked  ~ #home .home-logo span{
+    color: var(--yellow);
+  }
+  .dark-mode-cb:checked  ~ #home .navbar-list-item a{
+    color: var(--fontgreydark);
+  }
+  .dark-mode-cb:checked  ~ #home .navbar-list-item a:hover{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked  ~ #home .navbar-list-item a:hover::after{
+    background-color: var(--yellow);
+  }
+
+  .dark-mode-cb:checked ~ #home .dark-mode-label .fa-sun{
+    display: block;
+  }
+
+  .dark-mode-cb:checked ~ #home .dark-mode-label .fa-moon{
+    display: none;
+  }
+  .dark-mode-cb:checked ~ #home .home-content .header-primary{
+    color: var(--white);
+  }
+
+  .dark-mode-cb:checked ~ #home .home-content .paragraph{
+    color: var(--fontgreydark);
+  }
+
+  .dark-mode-cb:checked ~ #home .booking-button{
+    background-color: var(--darkyellow);
+    color: var(--blackgrey);
+    transition: background-color 0.3s;
+  }
+
+  .dark-mode-cb:checked ~ #home .booking-button:hover{
+    background-color: var(--yellow);
+  }
+  .dark-mode-cb:checked ~ #home .booking-button{
+    background-color: var(--darkyellow);
+    color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #home .video-icon{
+    background: linear-gradient(to right, var(--yellow) 50%, transparent 50%);
+  }
+
+  .dark-mode-cb:checked ~ #home .video-icon::before{
+    background-color: var(--blackgrey);
+  }
+
+  .dark-mode-cb:checked ~ #home .video-button{
+    color: var(--white);
+  }
+
+  .dark-mode-cb:checked ~ #home .video-button:hover{
+    color: var(--darkyellow);
+  }
+
+
+  /*chefs section*/
+
+  .dark-mode-cb:checked ~ #chefs{
+    background-color: var(--darkgrey);
+  }
+  .dark-mode-cb:checked ~ #chefs .title h2{
+    color: var(--fontgreydark);
+  }
+  .dark-mode-cb:checked ~ #chefs .title h1{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked ~ #chefs .title h1 span{
+    color: var(--yellow);
+  }
+  .dark-mode-cb:checked ~ #chefs .chef-card{
+    background-color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #chefs .chef-card .chef-svg-dark{
+    opacity: 1;;
+  }
+  .dark-mode-cb:checked ~ #chefs .chef-card .chef-svg{
+    opacity: 0;;
+  }
+  .dark-mode-cb:checked ~ #chefs .chef-card-caption h3{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked ~ #chefs .chef-card-caption p{
+    color: var(--fontgreydark);
+  }
+
+
+  /*gallery*/
+  .dark-mode-cb:checked ~ #gallery{
+    background-color: var(--blackgrey);
+
+  }
+  .dark-mode-cb:checked ~ #gallery .title h2{
+    color: var(--fontgreydark);
+  }
+  .dark-mode-cb:checked ~ #gallery .title h1{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked ~ #gallery .title h1 span{
+    color: var(--yellow);
+  }
+
+
+  /*contact section */
+  .dark-mode-cb:checked ~ #contact{
+    background-color: var(--darkgrey);
+
+  }
+
+  .dark-mode-cb:checked ~ #contact .title h2{
+    color: var(--fontgreydark);
+  }
+  .dark-mode-cb:checked ~ #contact .title h1{
+    color: var(--white);
+  }
+  .dark-mode-cb:checked ~ #contact .title h1 span{
+    color: var(--yellow);
+  }
+
+  .dark-mode-cb:checked ~ #contact .contact-list-item{
+    background-color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #contact .contact-list-item i{
+    background-color: var(--yellow);
+    color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #contact .contact-list-item .header-secondary,
+  .dark-mode-cb:checked ~ #contact .contact-list-item .paragraph span,
+  .dark-mode-cb:checked ~ #contact .contact-list-item .paragraph {
+    color: var(--lightgrey);
+  }
+  .dark-mode-cb:checked ~ #contact .contact-form {
+    background-color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #contact .contact-form .booking-button{
+    background-color: var(--darkyellow);
+    transition: all 0.4s;
+  }
+  .dark-mode-cb:checked ~ #contact .contact-form .booking-button:hover{
+    background-color: var(--yellow);
+  }
+
+
+
+  .dark-mode-cb:checked ~ #footer .footer-subscription button,
+  .dark-mode-cb:checked ~ #footer .footer-subscription button p    {
+    background-color: var(--darkyellow);
+    color: var(--blackgrey);
+  }
+  .dark-mode-cb:checked ~ #footer .footer-contact-item i,
+  .dark-mode-cb:checked  ~ #footer .home-logo span{
+    
+    color: var(--yellow);
+  }
